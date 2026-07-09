@@ -14,21 +14,60 @@ Every modern web browser has a built-in JavaScript engine, which means you do no
 
 ## What Will You Learn Here?
 
-This crash course covers the big picture:
+This crash course covers the big picture in one file:
 
-1. **What JavaScript looks like** — variables, functions, and basic syntax.
-2. **What JavaScript can do** — DOM manipulation, events, and async operations.
-3. **How the pieces fit together** — a mental model for the rest of the course.
+### Variables — Storing Information
 
-This is meant to be read in 20-30 minutes. After this, move to the [Beginner section](../02-beginner/) for detailed, step-by-step learning.
+```javascript
+const name = "Alice";   // "const" cannot be reassigned
+let age = 25;           // "let" CAN be changed
+age = 26;               // This works
+```
 
----
+### Functions — Reusable Blocks
 
-## Files
+```javascript
+function greet(personName) {
+  return "Hello, " + personName + "!";
+}
 
-| File | What It Covers |
-|------|---------------|
-| `overview.js` | Variables, data types, functions, arrays, objects, and events — all in one file |
+console.log(greet("Bob"));  // Output: Hello, Bob!
+```
+
+### Arrays — Lists of Things
+
+```javascript
+const fruits = ["apple", "banana", "cherry"];
+console.log(fruits[0]);     // Output: apple
+fruits.push("date");        // Add to end
+```
+
+### Objects — Structured Data
+
+```javascript
+const person = {
+  name: "Charlie",
+  age: 30
+};
+console.log(person.name);  // Output: Charlie
+```
+
+### Control Flow — Making Decisions
+
+```javascript
+const temperature = 30;
+if (temperature > 25) {
+  console.log("It's hot outside!");  // This runs
+}
+```
+
+### Events — Responding to Users
+
+```javascript
+button.addEventListener("click", function() {
+  alert("You clicked the button!");
+});
+```
 
 ---
 
@@ -38,3 +77,11 @@ This is meant to be read in 20-30 minutes. After this, move to the [Beginner sec
 2. Read the comments — they explain every line.
 3. Do not worry about understanding everything. The goal is exposure, not mastery.
 4. After this, go to [02-beginner](../02-beginner/) to learn each topic in depth.
+
+---
+
+## Files
+
+| File | What It Covers |
+|------|---------------|
+| `overview.js` | Variables, data types, functions, arrays, objects, and events — all in one file |

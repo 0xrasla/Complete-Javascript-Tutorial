@@ -18,18 +18,18 @@ If any of these topics feel unfamiliar, go back to the [Beginner section](../02-
 
 ## What You Will Learn
 
-| Topic | Folder | Description |
-|-------|--------|-------------|
-| Classes & OOP | `classes-and-oop/` | Classes, constructors, inheritance, `this`, encapsulation |
-| Async JS | `async-js/` | Callbacks, Promises, async/await, the event loop |
-| Projects | `projects/` | Hands-on projects to practice intermediate concepts |
+| # | Topic | Folder | Description |
+|---|-------|--------|-------------|
+| 01 | Classes & OOP | `01-classes-and-oop/` | Classes, constructors, inheritance, `this`, encapsulation |
+| 02 | Async JS | `02-async-js/` | Callbacks, Promises, async/await, the event loop |
+| 03 | Projects | `03-projects/` | Hands-on projects to practice intermediate concepts |
 
 ---
 
 ## How to Use This Section
 
-1. Go through the folders in order (classes-and-oop → async-js → projects).
-2. Read the `README.md` in each folder first.
+1. Go through the folders in order (01 → 02 → 03).
+2. Read the `README.md` in each folder first — it explains the concept with code examples.
 3. Open the `.js` file and run it in the browser console.
 4. Modify values and experiment.
 5. Complete the projects at the end.
