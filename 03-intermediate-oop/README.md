@@ -23,6 +23,7 @@ If any of these topics feel unfamiliar, go back to the [Beginner section](../02-
 | 01 | Classes & OOP | `01-classes-and-oop/` | Classes, constructors, inheritance, `this`, encapsulation |
 | 02 | Async JS | `02-async-js/` | Callbacks, Promises, async/await, the event loop |
 | 03 | Projects | `03-projects/` | Hands-on projects to practice intermediate concepts |
+| 04 | Modules | `04-modules/` | import/export, organizing code across files, dynamic imports |
 
 ---
 
